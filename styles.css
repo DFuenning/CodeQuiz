@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+    
+}
+
+h1, h2 {
+    text-align: center;
+    color: #4d606e;
+}
+
+.container{
+    background-color: #e8e8e8;
+    margin: 50px auto;
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    align-items: center;
+}
+
+/* #quiz-wrap {
+    con
+} */

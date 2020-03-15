@@ -1,14 +1,15 @@
-<!DOCTYPE html>
 
-<html class="no-js">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Pop Quiz Time!</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Jamie Morris Homework-4 Code Quiz -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- This is the style links -->
     <link rel="stylesheet" href="styles.css">
+    <title>The Leaderboard!</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
@@ -19,26 +20,23 @@
 
 <body>
     <div class="container">
-        <div id="score-btn" class="row">
-            <a href="highscores.html"><button id="scoreBoard">High Scores</button></a>
-        </div>
+    <div id="score-btn" class="row">
+        <a href="index.html"><button id="scoreBoard">Return</button></a>
     </div>
+</div>
+    <!-- This is a wrapper -->
     <div id="wrapper">
         <!-- Div for timer -->
         <div id="currentTime"></div>
         <!-- Div for quiz content -->
         <div id="questionsDiv">
-            <h1>Coding Quiz Incoming!</h1>
-            <p>Welcome to your first coding quiz! Answer each question to the best of your ability. Remember, a wrong
-                answer will deduct 10 seconds off of your time remaining. <span>Good luck!</span></p>
-            <ul id="answersUl"></ul>
+            <h1>Highscores</h1>
+            <ul id="highScore"></ul>
             <!-- Buttons -->
-            <button id="start-btn">Start Quiz</button>
-            
+            <button id="clear" value="reset">Clear Highscore</button>
         </div>
     </div>
- 
-    <script src="script.js" async defer></script>
+    <script src="highscores.js"></script>
 </body>
 
 </html>
